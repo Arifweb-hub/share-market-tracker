@@ -1,0 +1,6 @@
+{
+  "name": "NIFTY & SENSEX F&O Pro - Live Market Analysis & Trading Signals",
+  "description": "Professional live NIFTY 50 and BSE SENSEX derivatives analysis, complete option chain with Greeks, multi-factor trading signals, paper trading simulator, and AI market reasoning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
