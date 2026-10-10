@@ -1,18 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NIFTY &amp; SENSEX F&amp;O Pro - Live Market Analysis &amp; Trading Signals</title>
-    <meta name="description" content="Professional live NIFTY 50 and BSE SENSEX derivatives analysis, complete option chain with Greeks, multi-factor trading signals, paper trading simulator, and AI market reasoning." />
-    <meta property="og:title" content="NIFTY &amp; SENSEX F&amp;O Pro - Live Market Analysis &amp; Trading Signals" />
-    <meta property="og:description" content="Professional live NIFTY 50 and BSE SENSEX derivatives analysis, complete option chain with Greeks, multi-factor trading signals, paper trading simulator, and AI market reasoning." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <title>Share Market Tracker</title>
+
+    <!-- PASTE THE ROUTING SCRIPT RIGHT HERE -->
+    <script>
+      (function() {
+        if (window.location.pathname !== '/' && !window.location.pathname.includes('.')) {
+          window.history.replaceState(null, null, '/' + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
